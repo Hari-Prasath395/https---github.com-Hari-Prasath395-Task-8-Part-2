@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 600px;
+  width: 1000px;
+  background-color: #83677b;
+  padding: 10px;
+  margin-left: 150px;
+  position: relative;
+}
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  /* position: relative; */
+}
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: #64485c;
+  border: 2px solid white;
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 35px;
+  position: relative;
+}
+.box .para {
+  margin-top: 30px;
+  text-align: end;
+  padding-right: 10px;
+  /* position: absolute; */
+}
+
+.header {
+  /* text-align: center; */
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  border: 1px solid white;
+  background-color: #adadad;
+  padding: 10px;
+  position: absolute;
+  left: 350px;
+}
+.photo {
+  height: 120px;
+  width: 80px;
+  position: absolute;
+  bottom: 30px;
+
+  background-color: white;
+  display: inline-block;
+}
+button {
+  background-color: #4caf50;
+  border: none;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  border-radius: 2px;
+  display: inline;
+  margin-top: 5px;
+  margin-left: 100px;
+  opacity: 0.8;
+}
+
+button:hover {
+  color: white;
+  cursor: pointer;
+}
